@@ -39,7 +39,7 @@ Resources:
     Properties:
       CodeUri: lambda-triggers/create-auth-challenge/
       Handler: create-auth-challenge.handler
-      Runtime: nodejs12.x
+      Runtime: nodejs18.x
       Policies:
         - Version: "2012-10-17"
           Statement:
